@@ -17,6 +17,7 @@
     "@mui/material": "^5.16.7",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "axios": "^1.7.4",
+    "dashboard": "file:",
     "finnhub": "^1.2.18",
     "lucide-react": "^0.438.0",
     "react": "^18.3.1",

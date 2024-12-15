@@ -1,8 +1,16 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from app import StockPredictor
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000","http://localhost:5174","http://localhost:5173"],  # Update with your React app's URL
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Request model
 class StockRequest(BaseModel):

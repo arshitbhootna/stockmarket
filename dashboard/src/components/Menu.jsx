@@ -110,6 +110,18 @@ const Menu = () => {
           <li>
             <Link
               style={{ textDecoration: "none" }}
+              to="/predicate"
+              onClick={() => handleMenuClick(5)}
+            >
+              <p className={selectedMenu === 5 ? activeMenuClass : menuClass}>
+                Predicate
+              </p>
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              style={{ textDecoration: "none" }}
               to="/apps"
               onClick={() => handleMenuClick(6)}
             >
