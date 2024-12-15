@@ -1,0 +1,156 @@
+.Hero {
+    display: flex;
+    justify-content: space-between;
+    
+    background: linear-gradient(135deg, #0576ee, #2f879f); /* Blue gradient background */
+    color: white; /* White text color for better contrast */
+    margin: 20px auto;
+    margin-top: 0;
+    margin-bottom: 10rem;
+}
+
+.h-left, .h-right {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.0); /* Fully transparent background */
+    border-radius: 8px; /* Rounded corners */
+    flex: 1;
+    margin: 10px;
+}
+
+.h-left {
+    flex: 2; /* Make the left section larger */
+}
+
+.h-right {
+    flex: 1; /* Make the right section smaller */
+}
+
+.h-left h3, .h-left h2, .h-right h2, .h-right h4 {
+    color: #ffffff; /* White color for headings */
+    margin-bottom: 20px;
+}
+
+.h-left h3, .h-right a h4 {
+    font-size: 1.4rem; /* Font size for smaller headings */
+}
+
+.h-left h2, .h-right h4 {
+    font-size: 2rem; /* Font size for larger headings */
+}
+
+.h-left input[type='text'] {
+    width: 90%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.h-left p, .h-right p {
+    color: #ffffff; /* White color for text */
+}
+
+.h-left a, .h-right a {
+    color: #ffffff; /* White color for links */
+    text-decoration: underline; /* Underline for links */
+    display: inline-block; /* Make links block elements for better spacing */
+    margin-right: 0.8rem;
+    margin-bottom: 10px; /* Space between links */
+}
+
+.h-left a:hover, .h-right a:hover {
+    color: #ffeb3b; /* Change link color on hover */
+}
+
+
+
+
+
+
+
+
+/* General styling for FAQ sections */
+.faq-sections {
+    padding: 40px 0;
+    background-color: white;
+}
+
+.faq-sections h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Container styling */
+.support-cards-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Row styling */
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+/* Card styling */
+.card-block {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    color: #333;
+    flex: 1;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.card-block a {
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.card-block a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Icon styling */
+.category-icons {
+    font-size: 2rem;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: #007bff;
+}
+
+/* Text-muted class to reduce intensity of color */
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Text-grey class for link color */
+.text-grey a {
+    color: #6c757d;
+}
+
+.text-grey a:hover {
+    color: #343a40;
+}

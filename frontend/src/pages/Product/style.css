@@ -1,0 +1,293 @@
+/* Hero Section Styling */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px; /* Spacious padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.0); /* Subtle shadow for depth */
+    max-width: 800px; /* Max width for content */
+    margin: 0 auto; /* Center the component */
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Larger heading */
+    font-weight: 700; /* Bold weight */
+    margin-bottom: 20px; /* Space below heading */
+    color: #333; /* Darker text color */
+}
+
+.hero p {
+    font-size: 1.2rem; /* Comfortable reading size */
+    color: #555; /* Slightly lighter text for body */
+    line-height: 1.5; /* Better line spacing */
+    margin-bottom: 15px; /* Space between paragraphs */
+}
+
+.hero a {
+    color: #1a73e8; /* Accent color for link */
+    text-decoration: none; /* Remove underline */
+    font-weight: 600; /* Slightly bolder for emphasis */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.hero a:hover {
+    color: #0047ab; /* Darker color on hover */
+}
+
+.hero a:after {
+    content: " →"; /* Add arrow after link */
+    transition: transform 0.3s ease; /* Smooth transition for animation */
+}
+
+.hero a:hover:after {
+    transform: translateX(5px); /* Animate arrow movement */
+}
+
+/* Universe Section Styling */
+.universe {
+    max-width: 1200px; /* Adjusted max width for better layout */
+    margin: 10rem auto 0; /* Margin for spacing */
+    text-align: center;
+}
+
+.universe h2 {
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    color: rgb(65, 61, 61);
+}
+
+.universe h1 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.universe p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+/* Image Gallery Styling */
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust gap as needed for spacing */
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.img {
+    flex: 1 1 150px; /* Adjust width as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Removes extra space below images */
+}
+
+.unv-button{
+    font-size: 1.5rem;
+    width:16rem;
+    margin-bottom: 10rem;
+}
+
+/* LeftSection */
+.left-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
+    background-color: #ffffff;
+}
+
+.left {
+    flex: 2;
+    max-width: 50%; /* Control the image width */
+    text-align: center;
+    padding-right: 5rem;
+}
+
+.right {
+    flex: 1;
+    text-align: left;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-name {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.link {
+    margin-bottom: 20px;
+}
+.links{
+    margin-right: 8rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.primary-btn {
+    background-color: #007bff;
+}
+
+.primary-btn:hover {
+    background-color: #0056b3;
+}
+
+.secondary-btn {
+    background-color: #6c757d;
+}
+
+.secondary-btn:hover {
+    background-color: #5a6268;
+}
+
+.app-badges {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.app-badge {
+    max-width: 120px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.app-badge:hover {
+    transform: scale(1.05);
+}
+
+
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
+    background-color: #ffffff;
+}
+
+.content-left {
+    flex: 1;
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.image-right {
+    flex: 2;
+    max-width: 50%; /* Control the image width */
+    text-align: center;
+    padding-left: 20px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-name {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.links {
+    margin-bottom: 20px;
+}
+.link{
+    margin-right: 8rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.primary-btn {
+    background-color: #007bff;
+}
+
+.primary-btn:hover {
+    background-color: #0056b3;
+}
+
+.secondary-btn {
+    background-color: #6c757d;
+}
+
+.secondary-btn:hover {
+    background-color: #5a6268;
+}
+
+.app-badges {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.app-badge {
+    max-width: 120px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.app-badge:hover {
+    transform: scale(1.05);
+}
+

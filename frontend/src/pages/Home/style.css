@@ -1,0 +1,187 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 3rem 1rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+  
+  .hero-image {
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
+  }
+  
+  .hero-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #020202;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-description {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 2rem;
+    max-width: 800px;
+  }
+  
+  .hero-button {
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #0056b3;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the start of the container */
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 1rem;
+
+    
+    max-width: 1200px; /* Maximum width for the container */
+  }
+  
+  .LeftPart {
+    flex: 1; /* Take up available space */
+    margin-right: 10rem; /* Space between text and image */
+  }
+
+  h2 {
+    margin-bottom: 20px; /* Space below the h2 */
+  }
+  
+  h4 {
+    margin: 20px 0 10px; /* Space above and below h4 */
+  }
+  
+  p {
+    margin-bottom: 20px; /* Space below each paragraph */
+  }
+  
+  .RightPart {
+    flex: 1; /* Take up available space */
+    display: flex;
+    justify-content: center; /* Center the image within the div */
+    align-items: center; /* Vertically center the image */
+  }
+  
+  .image {
+    max-width: 100%; /* Ensure image is responsive */
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.0); /* Optional: subtle shadow */
+  }
+  .pricing {
+    display: flex;
+    justify-content: space-between; /* Space out the text and image sections */
+    align-items: flex-start; /* Align items at the start of the container */
+    padding: 20px;
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .leftprice {
+    flex: 1; /* Take up available space */
+    margin-right: 20px; /* Space between text and images */
+  }
+  
+  .leftprice h4 {
+    margin-bottom: 10px; /* Space below the h4 heading */
+  }
+  
+  .leftprice p {
+    margin-bottom: 20px; /* Space below the paragraph */
+  }
+  
+  .rightprice {
+    flex: 1; /* Take up available space */
+    display: flex;
+    justify-content: space-between; /* Space out image boxes horizontally */
+    align-items: center; /* Center images and text vertically */
+  }
+  
+  .pricing-box {
+    display: flex;
+    flex-direction: column; /* Stack image above text */
+    align-items: center; /* Center text below image */
+    text-align: center; /* Center text within the box */
+    margin-right: 20px; /* Space between each pricing box */
+  }
+  
+  .pricing-box img {
+    max-width: 100px; /* Set a maximum width for the images */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between image and text */
+  }
+  
+  .pricing-box p {
+    margin: 0; /* Remove default paragraph margin */
+    font-size: 14px; /* Adjust text size if needed */
+    
+
+  }
+
+  .education {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: space-between; /* Space between the image and text */
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Padding around the container */
+  }
+  
+  .left {
+    flex: 1; /* Take up available space */
+    margin-right: 50px; /* Space between image and text */
+    margin-left: 3rem;
+  }
+  
+  .left img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: 27rem; /* Maintain aspect ratio */
+  }
+  
+  .right {
+    /* flex-basis: 48%; */
+    width: 48%;
+    height:290px;
+    flex: 2; /* Take up more space than the image section */
+  }
+  
+  .right h4 {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 40px; /* Adjust the font size of the heading */
+    
+  }
+  
+  .right p {
+    margin-bottom: 20px; /* Space below each paragraph */
+    font-size: 16px; /* Adjust the font size of paragraphs */
+    line-height: 2; /* Improve readability with line spacing */
+  }
+  
+  @media (max-width: 768px) {
+    .education {
+      flex-direction: column; /* Stack image and text vertically on smaller screens */
+      text-align: center; /* Center text on smaller screens */
+    }
+  
+    .left, .right {
+      margin-right: 0; /* Remove margin in column layout */
+      margin-bottom: 20px; /* Space between sections in column layout */
+    }
+  }
+  

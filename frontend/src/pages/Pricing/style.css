@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif; /* Use a clean, readable font */
+    background-color: white; /* Light grey background for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff; /* White background for the hero section */
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
+}
+
+.hero-title {
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 10rem;
+}
+
+.pricing-section {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 20px; /* Space between cards */
+    margin-bottom:5rem;
+}
+
+.pricing-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.0);
+    padding: 20px;
+    flex: 1;
+    min-width: 300px; /* Ensures cards have a minimum width */
+    max-width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.0);
+}
+
+.pricing-image {
+    width: 20rem;
+    height: 20rem;
+    margin: 20px auto;
+}
+
+.pricing-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pricing-description {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.5;
+}
+
+.Brokerage {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white; /* Light grey background for the entire container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.0); /* Subtle shadow */
+    margin: 20px auto;
+    max-width: 1200px; /* Maximum width for the container */
+}
+
+.b-left, .b-right {
+    padding: 20px;
+    background-color: #ffffff; /* White background for individual sections */
+    border-radius: 8px; /* Rounded corners */
+    flex: 1;
+    margin: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0); /* Subtle shadow */
+}
+
+.b-left {
+    flex: 2; /* Make the left section larger */
+}
+
+.b-right {
+    flex: 1; /* Make the right section smaller */
+}
+
+.b-left h2 {
+    font-size: 24px;
+    color: rgb(57, 161, 225,1); /* Dark grey color for heading */
+    margin-bottom: 20px;
+}
+
+.b-left ul {
+    list-style-type: disc; /* Disc bullet points */
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.b-left ul li {
+    font-size: 16px;
+    color: #555; /* Medium grey color for list items */
+    margin-bottom: 10px;
+}
+.b-right h2{
+    font-size: 24px;
+    color: rgb(57, 161, 225,1); /* Dark grey color for heading */
+    margin-bottom: 20px;
+}
+.b-left h2:hover{
+    opacity:0.5;
+}
+.b-right h2:hover{
+    opacity:0.5;
+}
+

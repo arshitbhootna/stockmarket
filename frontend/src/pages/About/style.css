@@ -1,0 +1,40 @@
+.hero{
+    max-width: 1200px;
+}
+.describe {
+    display: flex;
+    justify-content: center; /* Center the children */
+    align-items: flex-start; /* Align items at the top */
+     /* Set a max width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for better spacing */
+    box-sizing: border-box; /* Include padding in element's total width/height */
+}
+.left{
+    padding: 1rem;
+    text-align: left;
+    flex: 2; /* Each will take equal space */
+    box-sizing: border-box; /* Include padding in element's total width/height */
+    min-width: 300px; /* Set a minimum width to ensure readability on smaller screens */
+}
+
+.right {
+    padding: 1rem;
+    text-align: left;
+    flex: 2; /* Each will take equal space */
+    box-sizing: border-box; /* Include padding in element's total width/height */
+    min-width: 300px; /* Set a minimum width to ensure readability on smaller screens */
+}
+
+.title {
+    font-size: 1rem;
+    margin-bottom: 8rem;
+    text-align: center; /* Center the title text */
+}
+
+.about-text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
